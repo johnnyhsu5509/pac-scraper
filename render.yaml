@@ -3,7 +3,7 @@ services:
     name: pac-scraper
     env: python
     buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn app:app
+    startCommand: py app:app
     plan: free
     region: oregon
     branch: main
